@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.p {
+  padding: 50px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  transform-style: inherit;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 0px;
+  font-size: 20px;
+  color: black;
+}
+
+.mzs {
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: black;
+  padding: 0px;
+  font-size: 20px;
+  font-family: arial black;
+}
+
+.zpic {
+  min-height: 100vh;
+  padding: 0vw 0 0vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  background-image: url("zpic.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.zpic:before {
+    background: 50% 50% / cover;
+}
+
+.learn {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 18%;
+  padding: 5px;
+  font-family: impact;
+  background-color: white;
+  text-align: center;
+  height: 80px;
+  color: white;
+  font-size: 30px;
+  margin-bottom: 16px;
+  line-height: 80px;
+  letter-spacing: 0.1em;
+  position: relative;
+  }
+
+a:visited{
+  text-decoration: none;
+  color: black
+}
+
+a:hover {
+  text-decoration: none;
+  color: red;
+}
